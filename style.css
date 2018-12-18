@@ -1,0 +1,48 @@
+html {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0; 
+    text-align: center;
+    text-transform: uppercase; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+    height: 100%;
+}
+
+.container {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;   
+    font-size: 1.0em;
+    text-align: center;
+    text-transform: uppercase;
+    border-style:  none;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #0c243b;
+    margin-left: 10px;
+    border-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.ascend {
+    margin-top: -170px;
+}
