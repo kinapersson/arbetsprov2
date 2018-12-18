@@ -45,12 +45,12 @@ button {
 
 .ascend {
     margin-top: -190px;
-    animation-name: example;
+    animation-name: ascend;
     animation-duration: 1s;   
     font-size: 1em;
 }
 
-@keyframes example {
+@keyframes ascend {
     from {
         margin-top: 0;
         font-size: 2em;
