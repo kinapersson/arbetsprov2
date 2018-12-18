@@ -44,5 +44,20 @@ button {
 }
 
 .ascend {
-    margin-top: -170px;
+    margin-top: -190px;
+    animation-name: example;
+    animation-duration: 1s;   
+    font-size: 1em;
 }
+
+@keyframes example {
+    from {
+        margin-top: 0;
+        font-size: 2em;
+    }
+    to {
+        margin-top: -190px;
+        font-size: 1em
+    }
+  }
+
