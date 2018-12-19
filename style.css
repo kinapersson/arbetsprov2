@@ -3,47 +3,47 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    color: #fff; 
     margin: 0; 
     text-align: center;
-    text-transform: uppercase; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white; 
-    height: 100%;
-}
-
-.container {
-    width: 600px;
-    height: 200px;
-    margin: 0 auto;
-    padding-top: 200px;
+    text-transform: uppercase;  
 }
 
 input {
-    height: 50px;
-    width: 200px;
-    border-radius: 50px;   
+    border-radius: 50px;  
+    border-style: none;
     font-size: 1.0em;
+    height: 50px;
     text-align: center;
     text-transform: uppercase;
-    border-style:  none;
+    width: 200px;
 }
 
 button {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    color: white;
-    font-weight: 600;
     background-color: #0c243b;
-    margin-left: 10px;
+    border-radius: 50px;
     border-style: none;
+    color: #fff;
+    font-weight: 600;
+    height: 50px;
+    margin-left: 10px;
+    width: 50px; 
+}
+
+.container {
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 600px;  
 }
 
 .hidden {
     display: none;
 }
 
-.ascend {
+.changed {
     margin-top: -190px;
     animation-name: ascend;
     animation-duration: 1s;   
